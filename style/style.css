@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+header{ 
+    width: 600px;
+       width: 100%;
+    padding-right: 210px;
+    padding-left: 638px;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    height: 70px;
+}
+header ul li a {
+     
+    background-color: #C4C4C4;
+     border-radius: 0 35px 0 35px;
+    
+    padding: 24px 18px 24px 26px;
+    color:#000000 ;
+}
+
+li:hover a{
+    color: #ffffff;
+    background-color: #79B331;
+}
+
+
+
+/* ----------------------index------------------------------ */
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Rectangle\ 1.png);
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
+.atvliskonteineri{
+    width: 422px;
+    height: 188px;
+    margin-top: 94px ; 
+    margin-left: 806px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.akciisdasrulebamdedarchenilia{
+    position: absolute;
+    top: 36px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.saatebi {
+    width: 100%;
+    /* height: 48px; */
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 auto;
+
+}
+
+ .kvadrati{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+  }
+
+.wre {
+    width: 32px;
+    height: 32px;
+    background-color: #79B331;
+    border-radius: 50%;
+    position: relative;
+    animation-name: wrebrunva;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+
+  }
+@keyframes wrebrunva {
+     0%   { top:0px; left:0px;}
+    25%  { top:0px; left:390px;}
+    50%  { top:156px;left:390px;}
+    75%  {top:156px;left:0px;  }
+    100% { top:0px;left:0px; }
+  }
+
+
+.gerocontainer{
+    width:1110px ;
+    height:430px ;
+    margin-top:108px;
+    margin-left: 332px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center;  */
+    background-color: bisque; 
+    /* padding: 20px; */
+}
+
+.gero{
+margin: 0 auto;
+/* position: absolute; */
+width: 0px;
+height: 100%;
+border: 1px solid#C4C4C4;
+
+}
+.fdatexti{
+    /* width: 568px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #C4C4C4; */
+     
+}
+
+.fdatexti1{
+    top: 0;
+    left: 0;
+}
+.fdatexti2{
+   
+    top: 50px;
+    left: 50%;
+}
+.fdatexti3{
+    top: 0;
+    left: 0;
+}
+.fdatexti4{
+    top: 0;
+    left: 0;
+}
+
+.fotoli{
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    border-radius: 0 35px 0 35px;
+    width: 70px;
+    height: 70px;
+    color: #C4C4C4;
+
+}
+
+.marjvena{
+  transform: rotate(90deg);
+    /* top: 0;
+    left: 0; */
+}
+
+
+.pirvelitext{
+    width:452px ;
+}
+
+.meoretext{
+    width:438px ;
+}
+.mesametext{
+    width:490px ;
+}
+.meotxetext{
+    width:452px ;
+    height: 78px;
+}
