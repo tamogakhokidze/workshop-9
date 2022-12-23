@@ -72,19 +72,16 @@ body{
 }
 
 .saatebi {
-    width: 100%;
-    /* height: 48px; */
+    position: absolute;
+    top:82px;
     font-size: 36px;
     font-weight: 400;
-    margin: 0 auto;
-
-}
+   }
 
  .kvadrati{
     width: 100%;
     height: 100%;
-    background-color: bisque;
-  }
+     }
 
 .wre {
     width: 32px;
